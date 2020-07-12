@@ -1,0 +1,39 @@
+$body-color: slateblue;
+
+body {
+  color: $body-color;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+    border-bottom: 1px #ccc solid;
+    
+}
+main {
+
+    .sec-siderbar {
+        width: 64px;
+        border-right: 1px #ccc solid;
+        height: 97vh;
+        background-color: #1445B7;
+        position: fixed;
+    }
+    .sec-content {
+		width: calc(100% - 64px);
+		float: right;
+        .block {
+			background-color: #1445B7;
+			&-grid {
+				display: flex;
+			}
+			&-content-area {
+				
+			}
+			&-sub-area {
+				
+			}
+		}
+	}
+}
+
